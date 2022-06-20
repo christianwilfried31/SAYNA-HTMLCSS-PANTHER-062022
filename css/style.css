@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+:root{
+    --yellow-color: #FFFF00;
+    --pink-light: #F2cef2;
+    --gris: #9e91b7;
+    --pink-light-1:#df99f2;
+    --blue:#3d2da6;
+    --blue-black:#07338c;
+    --black-color:#000000;
+    --black-blue:#021740;
+}
+
+body{
+    background-image: url("../assets/All pages/arrière_plan.png");
+    line-height: 1.5;
+  font-family: "Space Grotesk";
+  font-size: 17px;
+  font-weight: 300;
+  color: #fff;
+   
+  
+}
+
+.section{
+    padding-top: 50px;
+padding-bottom: 40px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*design nav*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex; 
+}
+
+nav li{
+    padding-left: 10px;
+}
+
+nav ul li a{
+    color: var(--white-color);
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color:#FFFF00;
+    
+}
+ .logo:hover{
+    filter: invert(9%) sepia(43%) saturate(7500%) hue-rotate(358deg) brightness(105%) contrast(107%);
+    -webkit-filter: invert(9%) sepia(43%) saturate(7500%) hue-rotate(358deg) brightness(105%) contrast(107%);
+}
+.container{
+    width:80%;
+    margin: 0 auto;
+    /*border: 1px solid;
+    border-bottom-style: none;
+    border-top-style: none;*/
+}
+/* end design nav*/
+
+/* design section panther */
+#Panther{
+    background-image: url("../assets/Accueil/Pantherhome1.png");
+}
+
